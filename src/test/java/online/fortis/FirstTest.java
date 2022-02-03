@@ -17,6 +17,6 @@ public class FirstTest {
        $("button[type='submit']").click();
 
        //check result
-       $$("#search-result li").first().shouldHave(text("wikipediag.org"));
+       $$("#search-result li").first().shouldHave(text("wikipedia.org"));
     }
 }
